@@ -1,15 +1,3 @@
-
-import math
-#print(math.pi)
-#esult = math.sqrt(x)
-#radius = float(input("enter radius: "))
-#result = math.pi * pow(radius, 2)
-#print(f"the area of your circle is: {round(result,2)}")
-#hipotenusa
-#a = float(input("Enter side A: "))
-#b= float(input("Enter side B: "))
-#c = math.sqrt((pow(a, 2)) + (pow(b, 2)))
-#print(f"THE SIDE C EQUALS {c}")
 #IF STATEMENTS
 #CALCULATOR
 operator = input("WHAT DO YOU WANT TO DO?: WEIGHT CONVERTOR (WC), TEMPERATURE CONVERTOR(TC) DISTANCE CONVERTOR(DC) CALCULATOR (M) ")
@@ -222,10 +210,7 @@ elif operator == "DC":
             do = int(input("Enter the current value: "))
             re = round(do * 39370.1 , 2)
             print(f"{re}in")
-    else:
-        print(f"{Me} is/are not valid")
 else:
     print(f"{operator} is/are not valid")
 
-#LO
 
