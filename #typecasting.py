@@ -9,7 +9,7 @@ if operator == "WC":
         print(f"{weight}kg")
     if w == "KG":
         weight = float(input("please enter a weight in kilograms: "))
-        weight = round(weight / 2.205, 2)
+        weight = round(weight * 2.205, 2)
         print(f"{weight}Lb") 
     else:
         print(f"{w} is/are not valid")
@@ -18,7 +18,7 @@ elif operator == "M":
     if op2 == "^":
         number = float(input("Please enter a number: "))
         power = float(input("Enter a power: "))
-        result = pow(number, power)
+        result =round(pow(number, power))
         print(result)
     if op2 == "+":
         num1 = float(input("enter a value: "))
